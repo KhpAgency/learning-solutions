@@ -20,12 +20,12 @@
 
 /* Start Fonts */
 @font-face {
-	font-family: 'Sateria';
-	src: local('Sateria'), local('Sateria'),
-		url('../fonts/Sateria.otf') format('opentype'),
-		url('../fonts/Sateria.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Sateria';
+    src: local('Sateria'), local('Sateria'),
+        url('../fonts/Sateria.otf') format('opentype'),
+        url('../fonts/Sateria.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
@@ -34,17 +34,163 @@
 /* Color Codes */
 
 :root {
-	--navy: #293A80;
-	--lightblue: #26A1D9;
-	--darkgrey: #292929;
-	--lightgrey: #999999;
+    --navy: #293A80;
+    --lightblue: #26A1D9;
+    --darkgrey: #292929;
+    --lightgrey: #999999;
 }
 
 /* End Color Codes */
 
 
+.centerdiv {
+    display: grid;
+    place-content: center;
+}
+
+.tcolor1 {
+    color: var(--lightgrey) !important;
+}
+
+.tcolor2 {
+    color: var(--darkgrey) !important;
+}
+
+.h3-1 {
+    font-family: Sateria !important;
+    font-size: 42px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+    text-align: center !important;
+}
+
+.h3-2 {
+    font-family: Sateria !important;
+    font-size: 42px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+    text-align: center !important;
+    color: white !important;
+}
+
+.h3-3 {
+    font-family: Sateria !important;
+    font-size: 42px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+    text-align: left !important;
+}
+
+.h3-4 {
+    font-family: Sateria !important;
+    font-size: 40px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+    text-align: center !important;
+    color: var(--lightblue) !important;
+}
+
+.h3-5 {
+    font-family: Sateria !important;
+    font-size: 32px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+    text-align: center !important;
+    text-transform: none !important;
+    color: var(--lightblue) !important;
+}
+
+.h3-6 {
+    font-family: Sateria !important;
+    font-size: 26px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+    text-align: center !important;
+    text-transform: none !important;
+    color: var(--navy) !important;
+}
 
 
+
+.p1 {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+    text-transform: none !important;
+    color: var(--lightgrey) !important;
+    text-align: justify !important;
+}
+
+.p1 span {
+    font-weight: 600 !important;
+}
+
+.p2 {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    text-transform: none !important;
+    color: var(--lightgrey) !important;
+}
+
+.p3 {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    letter-spacing: -1px !important;
+    text-transform: none !important;
+    color: var(--lightgrey) !important;
+    width: 80% !important;
+    text-align: justify !important;
+}
+
+.p4 {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    letter-spacing: -1px !important;
+    text-transform: none !important;
+    color: var(--lightgrey) !important;
+    text-align: justify !important;
+}
+
+.p5 {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+    text-transform: none !important;
+    color: var(--navy) !important;
+    text-align: justify !important;
+}
+
+
+
+
+.btn1 {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    color: rgb(255, 255, 255) !important;
+    padding: 12px 30px !important;
+    text-transform: uppercase !important;
+    border-radius: 4px !important;
+    background: var(--navy) !important;
+}
+
+.btn2 {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    color: rgb(255, 255, 255) !important;
+    margin-top: 15px !important;
+    padding: 8px 25px !important;
+    text-transform: uppercase !important;
+    border-radius: 4px !important;
+    background: var(--navy) !important;
+}
+
+.hr2{
+    width: 120px !important;
+    border-top: var(--lightblue) solid 10px !important;
+    color: var(--lightblue) !important;
+}
 
 
 /* End New CSS  */
