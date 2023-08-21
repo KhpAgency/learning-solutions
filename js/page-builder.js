@@ -1343,8 +1343,10 @@
 				animation: 'fade',
 				animationLoop: true,
 				prevText: '<i class="arrow_carrot-left"></i>',
-				nextText: '<i class="arrow_carrot-right"></i>'
+				nextText: '<i class="arrow_carrot-right"></i>',
+				draggable: true, // Set draggable to true
 			};
+			
 
 			if( $(this).attr('data-start-at') && $(this).attr('data-start-at') > 1 ){
 				flex_attr.startAt = $(this).attr('data-start-at') - 1;
