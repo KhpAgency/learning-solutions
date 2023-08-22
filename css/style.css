@@ -347,6 +347,39 @@
     margin-top: 115px !important;
 }
 
+.abt-vis {
+    background-image: url(../images/404-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 650px !important;
+    transform: translate(0px, -6.51875px) !important;
+}
+
+.our-vis {
+    font: 55px 'Sateria' !important;
+    display: grid;
+    place-content: center center;
+    position: relative;
+    top: 285px;
+    color: white !important;
+}
+
+.vis-title {
+    background-color: white;
+
+}
+
+.vis-h3{
+    font: 45px 'Sateria' !important;
+    text-transform: uppercase;
+    display: grid;
+    place-content: center center;
+    position: relative;
+    top: 40px;
+    color: var(--lightblue) !important;
+}
+
+
 
 /* End About Us */
 
