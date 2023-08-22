@@ -129,7 +129,7 @@
 }
 
 
-.height1{
+.height1 {
     height: 700px !important;
 }
 
@@ -208,7 +208,7 @@
     background: var(--navy) !important;
 }
 
-.hr2{
+.hr2 {
     width: 120px !important;
     border-top: var(--lightblue) solid 10px !important;
     color: var(--lightblue) !important;
@@ -262,7 +262,7 @@
     color: var(--lightblue) !important;
 }
 
-.abt-who2{
+.abt-who2 {
     font-size: 19px !important;
 }
 
@@ -274,24 +274,79 @@
     margin-top: -10px;
 }
 
-.abt-flags{
+.abt-flags {
     display: grid;
     place-content: center;
 }
 
-.abt-flags img{
+.abt-flags img {
     transform: scale(0.75);
     margin-top: 30px;
 
 }
 
-.abt-mis{
+.abt-mis {
     background-image: url(../upload/coming-soon.jpg);
-    background-size: cover ;
+    background-size: cover;
     background-position: center center;
-    height: 500px !important;
-    transform: translate(0px, -6.51875px) !important; 
+    height: 650px !important;
+    transform: translate(0px, -6.51875px) !important;
 }
+
+.our-mis {
+    font: 55px 'Sateria' !important;
+    display: grid;
+    place-content: center center;
+    position: relative;
+    top: 285px;
+    color: white !important;
+}
+
+.mis-height {
+    line-height: 50px !important;
+}
+
+.mis-font {
+    font: 18px 'Poppins';
+    text-transform: none;
+    text-align: left;
+    position: relative;
+    bottom: 45px;
+}
+
+.obj-height {
+    height: 600px !important;
+}
+
+.obj-bg {
+    background-image: url(../upload/shutterstock_400221589.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px !important;
+}
+
+.obj-txt {
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.obj-h3 {
+    font-family: 'Sateria' !important;
+    text-transform: uppercase;
+    font-size: 50px !important;
+    color: white !important;
+}
+
+.obj-p {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 20px !important;
+    max-width: 1450px;
+    text-align: left;
+    margin-top: 115px !important;
+}
+
 
 /* End About Us */
 
@@ -303,6 +358,7 @@
     left: 650px;
     border: 4px solid var(--lightblue) !important;
 }
+
 /* end services */
 
 
