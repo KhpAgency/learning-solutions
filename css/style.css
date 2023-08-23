@@ -500,6 +500,8 @@
 
 .vis-bg {
     background-image: url(../img/about/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .value-bg {
