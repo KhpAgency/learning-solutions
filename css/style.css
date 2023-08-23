@@ -277,6 +277,15 @@
     text-align: justify !important;
 }
 
+.p9 {
+    font-size: 26px !important;
+    font-weight: 400 !important;
+    letter-spacing: -1px !important;
+    text-transform: none !important;
+    color: var(--navy) !important;
+    text-align: center !important;
+}
+
 .btn1 {
     font-size: 14px !important;
     font-weight: 600 !important;
