@@ -460,7 +460,7 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a, ul.gdlr-co
 .gdlr-core-filterer-wrap.gdlr-core-style-button a:hover, .gdlr-core-filterer-wrap.gdlr-core-style-button a.gdlr-core-active{ color: #191919; } 
 .gdlr-core-filterer-wrap.gdlr-core-style-button a:hover, .gdlr-core-filterer-wrap.gdlr-core-style-button a.gdlr-core-active{ background-color: #0082fa; } 
 .gdlr-core-price-table-item .gdlr-core-price-table{ background-color: #ffffff; } 
-.gdlr-core-price-table .gdlr-core-price-table-head{ background-color: #3e3e3e; background: -webkit-linear-gradient(#3e3e3e, #3e3e3e); background: -o-linear-gradient(#3e3e3e, #3e3e3e); background: -moz-linear-gradient(#3e3e3e, #3e3e3e); background: linear-gradient(#3e3e3e, #3e3e3e); } 
+.gdlr-core-price-table .gdlr-core-price-table-head{ background-color: var(--navy); background: -webkit-linear-gradient(var(--navy), var(--navy)); background: -o-linear-gradient(var(--navy), var(--navy)); background: -moz-linear-gradient(var(--navy), var(--navy)); background: linear-gradient(var(--navy), var(--navy)); } 
 .gdlr-core-price-table .gdlr-core-price-table-icon{ color: #ffffff; } 
 .gdlr-core-price-table .gdlr-core-price-table-title{ color: #0082fa; } 
 .gdlr-core-price-table .gdlr-core-price-table-caption{ color: #ffffff; } 
@@ -470,7 +470,7 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a, ul.gdlr-co
 body .gdlr-core-price-table .gdlr-core-price-table-button, body .gdlr-core-price-table .gdlr-core-price-table-button:hover{ color: #ffffff; } 
 body .gdlr-core-price-table .gdlr-core-price-table-button, body .gdlr-core-price-table .gdlr-core-price-table-button:hover{ background-color: #383838; background: -webkit-linear-gradient(#383838, #383838); background: -o-linear-gradient(#383838, #383838); background: -moz-linear-gradient(#383838, #383838); background: linear-gradient(#383838, #383838); } 
 .gdlr-core-price-table .gdlr-core-price-table-content *{ border-color: #e5e5e5; } 
-.gdlr-core-price-table.gdlr-core-active .gdlr-core-price-table-head{ background-color: #0082fa; background: -webkit-linear-gradient(#0082fa, #0082fa); background: -o-linear-gradient(#0082fa, #0082fa); background: -moz-linear-gradient(#0082fa, #0082fa); background: linear-gradient(#0082fa, #0082fa); } 
+.gdlr-core-price-table.gdlr-core-active .gdlr-core-price-table-head{ background-color: var(--lightblue); background: -webkit-linear-gradient( var(--lightblue),  var(--lightblue)); background: -o-linear-gradient( var(--lightblue),  var(--lightblue)); background: -moz-linear-gradient( var(--lightblue),  var(--lightblue)); background: linear-gradient( var(--lightblue),  var(--lightblue)); } 
 .gdlr-core-price-table.gdlr-core-active .gdlr-core-price-table-icon{ color: #ffffff; } 
 .gdlr-core-price-table.gdlr-core-active .gdlr-core-price-table-title{ color: #ffffff; } 
 .gdlr-core-price-table.gdlr-core-active .gdlr-core-price-table-caption{ color: #003b8e; } 
