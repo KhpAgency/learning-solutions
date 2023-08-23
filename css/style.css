@@ -157,7 +157,7 @@
     font-size: 34px;
 }
 
-.height1  {
+.height1 {
     height: 700px !important;
 }
 
@@ -329,11 +329,19 @@
 }
 
 .abt-mis {
-    background-image: url(../upload/coming-soon.jpg);
+    background-image: url(../img/about/mission.jpg);
     background-size: cover;
-    background-position: center center;
-    height: 500px !important;
-    transform: translate(0px, -6.51875px) !important; 
+    /* background-position: center center; */
+    height: 600px !important;
+    transform: translate(0px, -6.51875px) !important;
+}
+
+.mis-icon {
+
+    display: grid;
+    place-content: center;
+    position: relative;
+    top: 210px;
 }
 
 .our-mis {
@@ -341,12 +349,21 @@
     display: grid;
     place-content: center center;
     position: relative;
-    top: 285px;
+    top: 210px;
     color: white !important;
 }
 
 .mis-height {
     line-height: 50px !important;
+    color: var(--lightgrey);
+    font-family: 'Poppins';
+    text-align: justify;
+}
+.mis-height2 {
+    line-height: 55px !important;
+    color: white;
+    font-family: 'Poppins';
+    text-align: justify;
 }
 
 .mis-font {
@@ -362,7 +379,7 @@
 }
 
 .obj-bg {
-    background-image: url(../upload/shutterstock_400221589.jpg);
+    background-image: url(../img/about/obj.jpg);
     background-size: cover;
     background-position: center;
     height: 600px !important;
@@ -391,11 +408,12 @@
 }
 
 .abt-vis {
-    background-image: url(../images/404-background.jpg);
-    background-size: cover;
-    background-position: center center;
+    background-image: url(../img/about/obj-splitter.jpg);
     height: 650px !important;
     transform: translate(0px, -6.51875px) !important;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 7px;
 }
 
 .our-vis {
@@ -412,7 +430,7 @@
 
 }
 
-.vis-h3{
+.vis-h3 {
     font: 45px 'Sateria' !important;
     text-transform: uppercase;
     display: grid;
@@ -422,7 +440,47 @@
     color: var(--lightblue) !important;
 }
 
+.vis-bg {
+    background-image: url(../img/about/vision.jpg);
+}
 
+.value-bg {
+    background-image: url(../img/about/values.png);
+}
+
+.value-height {
+    height: 700px;
+}
+
+.value-sec {
+    width: 700px;
+    position: relative !important;
+    right: 400px;
+    bottom: 140px;
+}
+
+.value-img {
+    position: relative !important;
+    bottom: 400px;
+    left: 60px;
+}
+
+.value-title {
+    font-size: 50px !important;
+    font-family: 'Sateria' !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 0px !important;
+    color: var(--lightblue) !important;
+}
+
+.value-p {
+    font-size: 19px;
+    text-transform: none;
+    font-family: 'Poppins';
+    color: var(--navy);
+    text-align: justify;
+}
 
 /* End About Us */
 
@@ -434,6 +492,7 @@
     left: 650px;
     border: 4px solid var(--lightblue) !important;
 }
+
 /* end services */
 
 
@@ -2719,3 +2778,4 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .lg-outer.fb-comments .lg-video-cont {
     max-width: 1250px !important
+}
