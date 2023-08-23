@@ -55,6 +55,10 @@
     color: var(--darkgrey) !important;
 }
 
+.tcolor3 {
+    color: var(--navy) !important;
+}
+
 .h3-1 {
     font-family: Sateria !important;
     font-size: 42px !important;
@@ -146,6 +150,37 @@
     color: var(--navy) !important;
 }
 
+.h3-11 {
+    font-family: Sateria !important;
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+    text-align: center !important;
+    color: white !important;
+    margin-bottom: -25px !important;
+    padding-top: 20px;
+}
+
+.h3-12 {
+    font-family: Sateria !important;
+    font-size: 26px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+    text-align: center !important;
+    color: white !important;
+
+}
+
+.h3-13 {
+    font-family: Sateria !important;
+    font-size: 26px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+    text-align: center !important;
+    color: var(--navy) !important;
+    margin-bottom: -25px !important;
+    padding: 10px 0px;
+}
 
 .h3-map {
     position: relative !important;
@@ -155,6 +190,10 @@
 .map-marker {
     color: var(--lightblue);
     font-size: 34px;
+}
+
+.w1{
+    width: 15% !important;
 }
 
 .height1  {
@@ -435,6 +474,26 @@
     border: 4px solid var(--lightblue) !important;
 }
 /* end services */
+
+/* start programs */
+.border-programs {
+    width: 230px;
+    position: relative;
+    bottom: 25px;
+    left: 630px;
+    border: 4px solid var(--lightblue) !important;
+}
+/* end programs */
+
+/* start contact */
+.border-contact {
+    width: 230px;
+    position: relative;
+    bottom: 25px;
+    left: 652px;
+    border: 4px solid var(--lightblue) !important;
+}
+/* end contact */
 
 
 /* End New CSS  */
