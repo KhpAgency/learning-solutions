@@ -192,12 +192,11 @@
     font-size: 34px;
 }
 
-.height1 
-.w1 {
+.height1 .w1 {
     width: 15% !important;
 }
 
-.height1  {
+.height1 {
     height: 700px !important;
 }
 
@@ -417,6 +416,7 @@
     font-family: 'Poppins';
     text-align: justify;
 }
+
 .mis-height2 {
     line-height: 55px !important;
     color: white;
@@ -553,6 +553,73 @@
     border: 4px solid var(--lightblue) !important;
 }
 
+.srvs-bg {
+    background-image: url(../img/Services/Bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: -300px !important;
+}
+
+.srvs-txt {
+    right: 100px;
+    top: 20px;
+}
+
+.srvs-icon {
+    transform: scale(0.8);
+    margin-left: -20px;
+}
+
+.split-icon {
+    transform: scale(0.8);
+    margin-left: 120px !important;
+}
+
+.spliter {
+    top: 30px !important;
+    bottom: 30px !important;
+}
+
+.h3-pos {
+    position: relative ;
+    top: 60px ;
+}
+
+.pos-top {
+    position: relative !important;
+    top: 60px !important;
+}
+
+.pos-top2 {
+    position: relative !important;
+    top: 30px !important;
+}
+
+.facili-bg {
+    background-image: url(../img/Services/Services-2.png) !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.eng-bg {
+    background-image: url(../img/Services/Services-1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.eng-bg2 {
+    background-image: url(../img/Services/Bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    right: -300px !important;
+}
+
+.srvs-split {
+    background-image: url(../img/Services/Srvs-Splitter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* end services */
 
 /* start programs */
@@ -563,6 +630,7 @@
     left: 630px;
     border: 4px solid var(--lightblue) !important;
 }
+
 /* end programs */
 
 /* start contact */
@@ -573,6 +641,7 @@
     left: 652px;
     border: 4px solid var(--lightblue) !important;
 }
+
 /* end contact */
 
 /* start flexible study */
@@ -583,6 +652,7 @@
     left: 652px;
     border: 4px solid var(--lightblue) !important;
 }
+
 /* end flexible study */
 
 
