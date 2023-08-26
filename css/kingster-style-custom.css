@@ -146,10 +146,10 @@ textarea {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	transition: opacity 200ms;
-	-moz-transition: opacity 200ms;
-	-o-transition: opacity 200ms;
-	-webkit-transition: opacity 200ms;
+	/* transition: opacity 200ms; */
+	/* -moz-transition: opacity 200ms; */
+	/* -o-transition: opacity 200ms; */
+	/* -webkit-transition: opacity 200ms; */
 }
 
 .gdlr-core-tab-item .gdlr-core-tab-item-image.gdlr-core-active {
@@ -183,7 +183,7 @@ textarea {
 	width: 100%;
 	height: 100%;
 	background-size: cover;
-	a background-position: center;
+	background-position: center;
 }
 
 .gdlr-core-blockquote-item .gdlr-core-blockquote-item-content {

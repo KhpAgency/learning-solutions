@@ -26,11 +26,17 @@
 .gdlr-core-line-height-0{ line-height: 0; } 
 
 .gdlr-core-column-10{ float: left; width: 16.6666%; }
+.gdlr-core-column-11{ float: left; width: 18.3333%; }
 .gdlr-core-column-12{ float: left; width: 20%; }
 .gdlr-core-column-15{ float: left; width: 25%; }
+.gdlr-core-column-15-r{ float: right; width: 25%; }
+.gdlr-core-column-23{ float: left; width: 23.3333%; }
 .gdlr-core-column-20{ float: left; width: 33.3333%; }
+.gdlr-core-column-33{ float: left; width: 30%; }
 .gdlr-core-column-24{ float: left; width: 40%; }
+.gdlr-core-column-25{ float: left; width: 45%; }
 .gdlr-core-column-30{ float: left; width: 50%; }
+.gdlr-core-column-30-r{ float: right; width: 50%; }
 .gdlr-core-column-36{ float: left; width: 60%; }
 .gdlr-core-column-40{ float: left; width: 66.6666%; }
 .gdlr-core-column-45{ float: left; width: 75%; }

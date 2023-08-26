@@ -581,8 +581,8 @@
 }
 
 .h3-pos {
-    position: relative ;
-    top: 60px ;
+    position: relative;
+    top: 60px;
 }
 
 .pos-top {
@@ -620,9 +620,20 @@
     background-repeat: no-repeat;
 }
 
-/* end services */
+/* End Services */
 
-/* start programs */
+
+/* Start Programs */
+
+.prog-bg-color {
+    background-color: #FFFFFF;
+    background-image: url(../img/Programs/Prog-Background.png);
+}
+
+.prog-name-color {
+    background-color: #F1F1F1 !important;
+}
+
 .border-programs {
     width: 230px;
     position: relative;
@@ -631,9 +642,68 @@
     border: 4px solid var(--lightblue) !important;
 }
 
-/* end programs */
+.programs-slider {
+    background-image: url(../img/Programs/Programs-Slider-20.jpg);
+}
 
-/* start contact */
+#prog1 ul {
+    list-style: none;
+}
+
+#prog1 ul li {
+    position: relative;
+    padding-left: 32px;
+    line-height: 2;
+}
+
+#prog1 ul li:before {
+    content: "\2022";
+    color: var(--lightblue);
+    font-size: 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(-32%);
+}
+
+.prog-padding {
+    padding-bottom: 50px;
+}
+
+.prog-padding2 {
+    padding-bottom: 170px;
+}
+
+.pro-bg {
+    background-color: white;
+}
+
+.prog-pos{
+    position: relative;
+    top: 40px;
+}
+.prog-pos2{
+    position: relative;
+    top: 30px;
+}
+.prog-pos3{
+    position: relative;
+    left: 20px;
+}
+
+.prog-h3-icons{
+    font-size: 22px !important;
+    font-family: 'Sateria' !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    color: var(--navy) !important;
+}
+
+
+/* End Programs */
+
+
+/* Start Contact */
 .border-contact {
     width: 230px;
     position: relative;
@@ -642,9 +712,116 @@
     border: 4px solid var(--lightblue) !important;
 }
 
-/* end contact */
+/* End Contact */
 
-/* start flexible study */
+
+/* Start Collabration */
+
+.coll-title {
+    font-size: 80px !important;
+    font-weight: 700 !important;
+    text-transform: none !important;
+    letter-spacing: 0px !important;
+    color: #ffffff !important;
+    font-family: 'Sateria' !important;
+    text-transform: uppercase !important;
+    display: grid;
+    place-content: center;
+}
+
+.coll-title2 {
+    font-size: 30px !important;
+    color: white !important;
+    font-weight: 200 !important;
+    letter-spacing: 0px !important;
+    text-transform: uppercase !important;
+    display: grid;
+    place-content: center;
+    margin-top: -20px;
+}
+
+.border-coll {
+    width: 345px;
+    position: relative;
+    bottom: 25px;
+    left: 625px;
+    border: 4px solid var(--lightblue) !important;
+}
+
+.coll-text {
+    font-size: 22px !important;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--lightgrey);
+    position: relative;
+    top: 15px;
+}
+
+.coll-pos {
+    position: relative;
+    top: 15px;
+    left: 70px;
+}
+
+.suc-h3 {
+    font-size: 45px !important;
+    font-family: 'Sateria' !important;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--navy) !important;
+    position: relative;
+    top: 20px;
+    padding: 50px 0px 50px 0px;
+}
+
+.suc-center {
+    display: flex;
+    place-content: center;
+}
+
+.suc-pos-l {
+    left: 95px;
+}
+
+.suc-pos-r {
+    right: 200px;
+}
+
+/* End Collabration */
+
+
+/* Start Flexible Study */
+
+.flex-slider {
+    background-image: url(../img/Flexibile/Flexibile-Slider-11.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.aur-img {
+    background-image: url(../img/Flexibile/Universities-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.iu-img {
+    background-image: url(../img/Flexibile/Universities-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bcit-img {
+    background-image: url(../img/Flexibile/Universities-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.ucla-img {
+    background-image: url(../img/Flexibile/Universities-4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .border-flexible {
     width: 420px;
     position: relative;
@@ -653,8 +830,138 @@
     border: 4px solid var(--lightblue) !important;
 }
 
-/* end flexible study */
+/* End Flexible Study */
 
+
+/* Start Online Education Study */
+
+.edu-title {
+    font-size: 60px !important;
+    font-weight: 700 !important;
+    text-transform: none !important;
+    letter-spacing: 0px !important;
+    color: #ffffff !important;
+    font-family: 'Sateria' !important;
+    text-transform: uppercase !important;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.edu-title2 {
+    font-size: 30px !important;
+    color: white !important;
+    font-weight: 200 !important;
+    letter-spacing: 0px !important;
+    text-transform: uppercase !important;
+    display: grid;
+    place-content: center;
+    margin-top: -20px;
+}
+
+.border-edu {
+    width: 405px;
+    position: relative;
+    bottom: 20px;
+    left: 560px;
+    border: 4px solid var(--lightblue) !important;
+}
+
+.edu-p {
+    font-family: 'Poppins';
+    font-size: 21px !important;
+    font-weight: 400 !important;
+    letter-spacing: -1px !important;
+    text-transform: none !important;
+    color: var(--lightgrey) !important;
+    text-align: justify !important;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+}
+
+.edu-p2 {
+    font-family: 'Poppins' !important;
+    font-size: 40px !important;
+    font-weight: 400 !important;
+    letter-spacing: -1px !important;
+    text-transform: uppercase !important;
+    color: var(--navy) !important;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+}
+
+.edu-h3 {
+    font-family: 'Poppins' !important;
+    font-size: 40px !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    color: var(--navy) !important;
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+}
+
+.border-edu-h3 {
+    width: 220px;
+    position: relative;
+    bottom: 65px;
+    left: 280px;
+    border: 6px solid var(--navy) !important;
+}
+
+.edu-bg {
+    background-image: url(../img/Online-Education/Sec-Imgs-17.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    position: relative;
+    right: 60px;
+}
+
+.edu-bg2 {
+    background-image: url(../img/Online-Education/Sec-Imgs-18.jpg) !important;
+    background-size: cover !important;
+    /* background-position: center !important; */
+    position: relative;
+    right: 200px;
+}
+
+.edu-txt {
+    right: 100px;
+    top: 65px;
+}
+
+.edu-split-txt {
+    font-family: 'Sateria' !important;
+    font-size: 42px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px !important;
+    text-align: center !important;
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.edu-pos {
+    position: relative;
+    top: 105px;
+}
+
+.edu-pos2 {
+    position: relative;
+    top: 20px;
+}
+
+
+.edu-logo {
+    bottom: 15px;
+    right: 5px;
+    transform: scale(0.8);
+    text-align: center !important;
+}
+
+
+/* End Online Education Study */
 
 /* End New CSS  */
 
