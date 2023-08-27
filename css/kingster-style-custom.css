@@ -2638,7 +2638,7 @@ pre {
 .kingster-body .kingster-button,
 .kingster-body input[type="button"],
 .kingster-body input[type="submit"] {
-	background-color: #0082fa;
+	background-color: var(--navy);
 }
 
 .gdlr-core-body .gdlr-core-load-more:hover,
@@ -4035,7 +4035,7 @@ kingster-lp-course-left-thumbnail .origin-price {
 
 .gdlr-core-page-builder-body [data-skin="Green Form"] *,
 .gdlr-core-page-builder-body [data-skin="Green Form"] .gdlr-core-skin-border {
-	border-color: #0082fa
+	border-color: var(--navy)
 }
 
 .gdlr-core-page-builder-body [data-skin="Green Form"] input:not([type="button"]):not([type="submit"]):not([type="reset"]) {
