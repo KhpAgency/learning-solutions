@@ -20,51 +20,6 @@ function populateCertificates() {
 populateCertificates();
 
 
-// Array of Programmes names
-const programmes = [
-    "Jewellery Design", "Fashion Marketing and Management", "Fashion Design Interior", "Design Visual Communication Design", "Video Game Design",
-];
-
-
-// Function to populate the dropdown with Programmes options
-function populateProgrammes() {
-    const programmesDropdown = document.querySelector('select[name="programmes"]');
-    programmes.forEach(programmes => {
-        const option = document.createElement('option');
-        option.value = programmes;
-        option.textContent = programmes;
-        programmesDropdown.appendChild(option);
-    });
-}
-
-
-// Call the function to populate the dropdown with Programmes options
-populateProgrammes();
-
-
-
-// Array of Commencing Intake names
-const commencing = [
-    "January", "March", "September",
-];
-
-
-// Function to populate the dropdown with Commencing Intake options
-function populateCommencings() {
-    const commencingDropdown = document.querySelector('select[name="commencing"]');
-    commencing.forEach(commencing => {
-        const option = document.createElement('option');
-        option.value = commencing;
-        option.textContent = commencing;
-        commencingDropdown.appendChild(option);
-    });
-}
-
-
-// Call the function to populate the dropdown with Commencing Intake options
-populateCommencings();
-
-
 // Array of country names
 const countries = [
     "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia",
@@ -126,19 +81,18 @@ populateCountries2();
 
 
 
-function populateCountries3() {
-    const countryDropdown = document.querySelector('select[name="country3"]');
-    countries.forEach(country => {
-        const option = document.createElement('option');
-        option.value = country;
-        option.textContent = country;
-        countryDropdown.appendChild(option);
-    });
-}
+// function populateCountries3() {
+//     const countryDropdown = document.querySelector('select[name="country3"]');
+//     countries.forEach(country => {
+//         const option = document.createElement('option');
+//         option.value = country;
+//         option.textContent = country;
+//         countryDropdown.appendChild(option);
+//     });
+// }
 
 
-// Call the function to populate the dropdown with country options
-populateCountries3();
+// populateCountries3();
 
 // Array of nationality names
 const nationalities = [
@@ -181,4 +135,50 @@ function populateNationalities() {
 
 // Call the function to populate the dropdown with nationality options
 populateNationalities();
+
+
+
+// Array of Programmes names
+const programmes = [
+    "Jewellery Design", "Fashion Marketing and Management", "Fashion Design Interior", "Design Visual Communication Design", "Video Game Design",
+];
+
+
+// Function to populate the dropdown with Programmes options
+function populateProgrammes() {
+    const programmesDropdown = document.querySelector('select[name="programmes"]');
+    programmes.forEach(programmes => {
+        const option = document.createElement('option');
+        option.value = programmes;
+        option.textContent = programmes;
+        programmesDropdown.appendChild(option);
+    });
+}
+
+
+// Call the function to populate the dropdown with Programmes options
+populateProgrammes();
+
+
+
+// Array of Commencing Intake names
+const commencing = [
+    "January", "March", "September",
+];
+
+
+// Function to populate the dropdown with Commencing Intake options
+function populateCommencings() {
+    const commencingDropdown = document.querySelector('select[name="commencing"]');
+    commencing.forEach(commencing => {
+        const option = document.createElement('option');
+        option.value = commencing;
+        option.textContent = commencing;
+        commencingDropdown.appendChild(option);
+    });
+}
+
+
+// Call the function to populate the dropdown with Commencing Intake options
+populateCommencings();
 
