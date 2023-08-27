@@ -1657,7 +1657,7 @@ body.kingster-boxed .kingster-body-wrapper,
 .kingster-body input,
 .wpcf7 select,
 .kingster-body textarea {
-	border-color: #d7d7d7;
+	border-color: var(--lightblue);
 }
 
 .kingster-body input,
