@@ -1399,7 +1399,7 @@ blockquote {
 .sf-vertical>li>a:hover,
 .sf-vertical>li.current-menu-item>a,
 .sf-vertical>li.current-menu-ancestor>a {
-	color: var(--navy);
+	color: var(--lightblue);
 }
 
 .sf-menu>.kingster-normal-menu li,
