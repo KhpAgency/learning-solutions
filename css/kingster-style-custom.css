@@ -4035,7 +4035,7 @@ kingster-lp-course-left-thumbnail .origin-price {
 
 .gdlr-core-page-builder-body [data-skin="Green Form"] *,
 .gdlr-core-page-builder-body [data-skin="Green Form"] .gdlr-core-skin-border {
-	border-color: var(--navy)
+	border-color: #0082fa ;
 }
 
 .gdlr-core-page-builder-body [data-skin="Green Form"] input:not([type="button"]):not([type="submit"]):not([type="reset"]) {

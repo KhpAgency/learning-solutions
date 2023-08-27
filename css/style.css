@@ -1112,6 +1112,15 @@
     color: #686868;
 }
 
+.form-adm {
+    font-size: 30px !important;
+    font-family: 'Sateria' !important;
+    font-weight: 700 !important;
+    letter-spacing: 0px !important;
+    text-transform: none !important;
+    color: #1a1a1a !important;
+}
+
 /* End Admission  */
 
 /* End New CSS  */
