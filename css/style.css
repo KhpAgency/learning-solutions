@@ -304,7 +304,7 @@
     text-align: justify !important;
 }
 
-.p8 b{
+.p8 b {
     font-weight: 600 !important;
 }
 
@@ -769,6 +769,11 @@
     border: 4px solid var(--lightblue) !important;
 }
 
+.contact-slider {
+    background-image: url(../img/Contact/Contact-Slider-06.jpg);
+    background-size: cover;
+}
+
 /* End Contact */
 
 
@@ -890,6 +895,12 @@
 /* End Flexible Study */
 
 /* start english courses */
+.eng-slider {
+    background-image: url(../img/English-Courses/English-Slider-05.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .border-courses {
     width: 350px;
     position: relative;
