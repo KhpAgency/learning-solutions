@@ -441,7 +441,7 @@
 }
 
 .abt-mis {
-    background-image: url(../img/about/mission.jpg);
+    background-image: url(../img/about/mission.webp);
     background-size: cover;
     /* background-position: center center; */
     height: 600px !important;
@@ -492,7 +492,7 @@
 }
 
 .obj-bg {
-    background-image: url(../img/about/obj.jpg);
+    background-image: url(../img/about/obj.webp);
     background-size: cover;
     background-position: center;
     height: 600px !important;
@@ -521,7 +521,7 @@
 }
 
 .abt-vis {
-    background-image: url(../img/about/obj-splitter.jpg);
+    background-image: url(../img/about/obj-splitter.webp);
     height: 650px !important;
     transform: translate(0px, -6.51875px) !important;
     background-repeat: no-repeat;
@@ -554,7 +554,7 @@
 }
 
 .vis-bg {
-    background-image: url(../img/about/vision.jpg);
+    background-image: url(../img/about/vision.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -609,7 +609,7 @@
 }
 
 .srvs-bg {
-    background-image: url(../img/Services/Bg-1.jpg);
+    background-image: url(../img/Services/Bg-1.webp);
     background-size: cover;
     background-repeat: no-repeat;
     left: -300px !important;
@@ -651,26 +651,26 @@
 }
 
 .facili-bg {
-    background-image: url(../img/Services/Services-2.png) !important;
+    background-image: url(../img/Services/Services-2.webp) !important;
     background-size: cover !important;
     background-position: center !important;
 }
 
 .eng-bg {
-    background-image: url(../img/Services/Services-1.png);
+    background-image: url(../img/Services/Services-1.webp);
     background-size: cover;
     background-position: center;
 }
 
 .eng-bg2 {
-    background-image: url(../img/Services/Bg-2.jpg);
+    background-image: url(../img/Services/Bg-2.webp);
     background-size: cover;
     background-repeat: no-repeat;
     right: -300px !important;
 }
 
 .srvs-split {
-    background-image: url(../img/Services/Srvs-Splitter.png);
+    background-image: url(../img/Services/Srvs-Splitter.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -698,7 +698,7 @@
 }
 
 .programs-slider {
-    background-image: url(../img/Programs/Programs-Slider-20.jpg);
+    background-image: url(../img/Programs/Programs-Slider-20.webp);
 }
 
 #prog1 ul {
@@ -770,7 +770,7 @@
 }
 
 .contact-slider {
-    background-image: url(../img/Contact/Contact-Slider-06.jpg);
+    background-image: url(../img/Contact/Contact-Slider-06.webp);
     background-size: cover;
 }
 
@@ -855,31 +855,31 @@
 /* Start Flexible Study */
 
 .flex-slider {
-    background-image: url(../img/Flexibile/Flexibile-Slider-11.jpg);
+    background-image: url(../img/Flexibile/Flexibile-Slider-11.webp);
     background-position: center;
     background-size: cover;
 }
 
 .aur-img {
-    background-image: url(../img/Flexibile/Universities-1.jpg);
+    background-image: url(../img/Flexibile/Universities-1.webp);
     background-position: center;
     background-size: cover;
 }
 
 .iu-img {
-    background-image: url(../img/Flexibile/Universities-2.jpg);
+    background-image: url(../img/Flexibile/Universities-2.webp);
     background-position: center;
     background-size: cover;
 }
 
 .bcit-img {
-    background-image: url(../img/Flexibile/Universities-3.jpg);
+    background-image: url(../img/Flexibile/Universities-3.webp);
     background-position: center;
     background-size: cover;
 }
 
 .ucla-img {
-    background-image: url(../img/Flexibile/Universities-4.jpg);
+    background-image: url(../img/Flexibile/Universities-4.webp);
     background-position: center;
     background-size: cover;
 }
@@ -896,7 +896,7 @@
 
 /* start english courses */
 .eng-slider {
-    background-image: url(../img/English-Courses/English-Slider-05.jpg);
+    background-image: url(../img/English-Courses/English-Slider-05.webp);
     background-position: center;
     background-size: cover;
 }
@@ -997,7 +997,7 @@
 }
 
 .edu-bg {
-    background-image: url(../img/Online-Education/Sec-Imgs-17.jpg);
+    background-image: url(../img/Online-Education/Sec-Imgs-17.webp);
     background-size: cover;
     /* background-position: center; */
     position: relative;
@@ -1005,7 +1005,7 @@
 }
 
 .edu-bg2 {
-    background-image: url(../img/Online-Education/Sec-Imgs-18.jpg) !important;
+    background-image: url(../img/Online-Education/Sec-Imgs-18.webp) !important;
     background-size: cover !important;
     /* background-position: center !important; */
     position: relative;
