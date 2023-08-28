@@ -12078,7 +12078,6 @@ ul.gdlr-core-product-sub-category li h3 {
 	.gdlr-core-column-15,
 	.gdlr-core-column-20,
 	.gdlr-core-column-24,
-	.gdlr-core-column-30,
 	.gdlr-core-column-36,
 	.gdlr-core-column-40,
 	.gdlr-core-column-45,
@@ -12086,6 +12085,10 @@ ul.gdlr-core-product-sub-category li h3 {
 	.gdlr-core-column-50,
 	.gdlr-core-column-60 {
 		width: 100%;
+	}
+
+	.gdlr-core-column-30{
+		width: 50%;
 	}
 
 	.gdlr-core-pbf-column-content {
