@@ -3420,16 +3420,103 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 /* start responsive */
 @media only screen and (max-width: 768px) {
-    .t1mob{
+    .t1mob {
         font-size: 18px !important;
     }
-    .t2mob{
+
+    .t2mob {
         font-size: 20px !important;
     }
-    .p1{
+
+    .p1 {
         font-size: 16px !important;
     }
-    .pd1{
+
+    .p2mob {
+        font-size: 16px !important;
+    }
+
+    .pd1 {
         padding-bottom: 0px !important;
+    }
+
+    .pd2 {
+        padding-top: 0px !important;
+    }
+
+    .pd3 {
+        padding-bottom: 20px !important;
+    }
+
+    .pd4 {
+        padding-top: 35px !important;
+    }
+
+    .pd5{
+        padding-bottom: 15px !important;
+    }
+
+    .pd6 {
+        padding-top: 25px !important;
+    }
+
+    .h3-1 {
+        font-size: 26px !important;
+    }
+
+    .h3-2m {
+        font-size: 22px !important;
+    }
+    .h3-3 {
+        font-family: Sateria !important;
+        font-size: 26px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-align: left !important;
+    }
+
+    .dnone {
+        display: none !important;
+    }
+
+    .p3 {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        letter-spacing: -1px !important;
+        text-transform: none !important;
+        color: var(--lightgrey) !important;
+        width: 100% !important;
+        text-align: justify !important;
+    }
+
+    .p4 {
+        font-size: 17px !important;
+        font-weight: 400 !important;
+        letter-spacing: -1px !important;
+        text-transform: none !important;
+        color: var(--lightgrey) !important;
+        text-align: justify !important;
+    }
+
+    .btn1 {
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        letter-spacing: 1px !important;
+        color: rgb(255, 255, 255) !important;
+        padding: 10px 20px !important;
+        text-transform: uppercase !important;
+        border-radius: 4px !important;
+        background: var(--navy) !important;
+    }
+    .btn2 {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        letter-spacing: 1px !important;
+        color: rgb(255, 255, 255) !important;
+        margin-top: 15px !important;
+        padding: 6px 16px !important;
+        text-transform: uppercase !important;
+        border-radius: 4px !important;
+        background: var(--navy) !important;
     }
 }
