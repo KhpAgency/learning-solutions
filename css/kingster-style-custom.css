@@ -1449,17 +1449,17 @@ ul.sf-menu>.menu-item-language li {
 .mm-navbar .mm-btn,
 ul.mm-listview li>a,
 ul.mm-listview li>span {
-	color: #979797;
+	color: white;
 }
 
 ul.mm-listview li a {
-	border-color: #979797;
+	border-color: white;
 }
 
 .mm-arrow:after,
 .mm-next:after,
 .mm-prev:before {
-	border-color: #979797;
+	border-color: white;
 }
 
 .mm-navbar .mm-title:hover,
@@ -1469,15 +1469,15 @@ ul.mm-listview li>span:hover,
 ul.mm-listview li.current-menu-item>a,
 ul.mm-listview li.current-menu-ancestor>a,
 ul.mm-listview li.current-menu-ancestor>span {
-	color: #ffffff;
+	color: var(--lightgrey);
 }
 
 .mm-menu {
-	background-color: #1f1f1f;
+	background-color: var(--navy);
 }
 
 ul.mm-listview li {
-	border-color: #626262;
+	border-color: white;
 }
 
 .kingster-overlay-menu-content {

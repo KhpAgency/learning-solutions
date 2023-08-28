@@ -3417,3 +3417,19 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-outer.fb-comments .lg-video-cont {
     max-width: 1250px !important
 }
+
+/* start responsive */
+@media only screen and (max-width: 768px) {
+    .t1mob{
+        font-size: 18px !important;
+    }
+    .t2mob{
+        font-size: 20px !important;
+    }
+    .p1{
+        font-size: 16px !important;
+    }
+    .pd1{
+        padding-bottom: 0px !important;
+    }
+}
