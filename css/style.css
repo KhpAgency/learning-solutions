@@ -3540,11 +3540,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         height: 50px !important;
     }
 
-    .height-4{
+    .height-4 {
         height: 940px !important;
     }
 
-    .height-5{
+    .height-5 {
         height: auto !important;
     }
 
@@ -3557,11 +3557,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         margin-top: -15px;
     }
 
-    .width-3{
+    .width-3 {
         width: 20% !important;
     }
 
-    .width-4{
+    .width-4 {
         width: 410px !important;
     }
 
@@ -3594,7 +3594,32 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         color: var(--navy) !important;
     }
 
-    .aligncenter{
+    .aligncenter {
         text-align: center !important;
     }
+
+
+    /*  Start Services */
+
+    .abt-title {
+        font-size: 30px !important;
+    }
+
+    .border-services {
+        width: 120px;
+        position: relative;
+        bottom: 65px;
+        left: 158px;
+        border: 4px solid var(--lightblue) !important;
+    }
+
+    .abt-title2 {
+        font-size: 20px !important;
+    }
+
+    /*  End Services */
+
+
+
+
 }
