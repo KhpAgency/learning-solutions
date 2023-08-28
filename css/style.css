@@ -3623,6 +3623,42 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         margin-top: -20px;
     }
 
+    .border-abt {
+        width: 80px;
+        position: relative;
+        bottom: 17px;
+        left: 163px;
+        border: 2.5px solid var(--lightblue) !important;
+    }
+
+    .abt-who {
+        font-size: 22px !important;
+        font-weight: 700 !important;
+        letter-spacing: 0px !important;
+        text-transform: none !important;
+        font-family: 'Sateria' !important;
+        color: var(--lightblue) !important;
+    }
+    .abt-who-border {
+        border-color: var(--lightblue) !important;
+        border-width: 4px !important;
+        width: 90px;
+        margin-left: 58px;
+        margin-top: -10px;
+    }
+    .pd8{
+        padding-top: 30px !important;
+    }
+    .abt-who2 {
+        font-size: 16px !important;
+    }
+    .pd9{
+        padding-bottom: 0px!important;
+    }
+    .pd10{
+        padding-bottom: 30px !important;
+    }
+    }
     /*  Start Services */
 
     .abt-title {
