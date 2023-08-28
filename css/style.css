@@ -3639,6 +3639,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         font-family: 'Sateria' !important;
         color: var(--lightblue) !important;
     }
+
     .abt-who-border {
         border-color: var(--lightblue) !important;
         border-width: 4px !important;
@@ -3646,69 +3647,61 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         margin-left: 58px;
         margin-top: -10px;
     }
-    .pd8{
+
+    .pd8 {
         padding-top: 30px !important;
     }
+
     .abt-who2 {
         font-size: 16px !important;
     }
-    .pd9{
-        padding-bottom: 0px!important;
+
+    .pd9 {
+        padding-bottom: 0px !important;
     }
-    .pd10{
+
+    .pd10 {
         padding-bottom: 30px !important;
     }
-    }
-    /*  Start Services */
-
-    .abt-title {
-        font-size: 30px !important;
-    }
-
-    .border-services {
-        width: 120px;
-        position: relative;
-        bottom: 15px;
-        left: 155px;
-        border: 2.5px solid var(--lightblue) !important;
-    }
-
-    .abt-title2 {
-        font-size: 20px !important;
-    }
-
-    .srvs-txt {
-        right: 5px;
-        top: 0px;
-    }
-
-    .srvs-icon {
-        transform: scale(0.6);
-        margin-left: 100px;
-    }
-
-    .srvs-bg {
-        right: -15px !important;
-    }
-
-    .h3-8 {
-        font-size: 20px !important;
-        right: -40px;
-        top: -15px;
-        position: inherit;
-    }
-
-    .p6 {
-        font-size: 17px !important;
-    }
-
-    .facili-bg {
-        
-    }
-
-    /*  End Services */
 
 
+/*  Start Services */
 
+.border-services {
+    width: 120px;
+    position: relative;
+    bottom: 15px;
+    left: 155px;
+    border: 2.5px solid var(--lightblue) !important;
+}
+
+.srvs-txt {
+    right: 5px;
+    top: 0px;
+}
+
+.srvs-icon {
+    transform: scale(0.6);
+    margin-left: 100px;
+}
+
+.srvs-bg {
+    right: -15px !important;
+}
+
+.h3-8 {
+    font-size: 20px !important;
+    right: -40px;
+    top: -15px;
+    position: inherit;
+}
+
+.p6 {
+    font-size: 17px !important;
+}
+
+.facili-bg {}
+
+/*  End Services */
 
 }
