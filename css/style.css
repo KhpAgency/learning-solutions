@@ -3599,6 +3599,30 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     }
 
 
+    /* about us */
+    .abt-title {
+        font-size: 30px !important;
+        font-weight: 700 !important;
+        text-transform: none !important;
+        letter-spacing: 0px !important;
+        color: #ffffff !important;
+        font-family: 'Sateria' !important;
+        text-transform: uppercase !important;
+        display: grid;
+        place-content: center;
+    }
+
+    .abt-title2 {
+        font-size: 20px !important;
+        color: white !important;
+        font-weight: 200 !important;
+        letter-spacing: 0px !important;
+        text-transform: uppercase !important;
+        display: grid;
+        place-content: center;
+        margin-top: -20px;
+    }
+
     /*  Start Services */
 
     .abt-title {
@@ -3622,26 +3646,4 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 
 
-    /* about us */
-    .abt-title {
-        font-size: 30px !important;
-        font-weight: 700 !important;
-        text-transform: none !important;
-        letter-spacing: 0px !important;
-        color: #ffffff !important;
-        font-family: 'Sateria' !important;
-        text-transform: uppercase !important;
-        display: grid;
-        place-content: center;
-    }
-    .abt-title2 {
-        font-size: 20px !important;
-        color: white !important;
-        font-weight: 200 !important;
-        letter-spacing: 0px !important;
-        text-transform: uppercase !important;
-        display: grid;
-        place-content: center;
-        margin-top: -20px;
-    }
 }
