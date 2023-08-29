@@ -4086,6 +4086,26 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         width: 100% !important;
     }
 
+    .pd20{
+        padding: 20px 0px 0px 0px !important;
+    }
+
+    .prog-h3-icons {
+        font-size: 16px !important;
+        font-family: 'Sateria' !important;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        color: var(--navy) !important;
+    }
+
+    .prog-h3-icons br{
+       display: none;
+    }
+
+    .width-8{
+        width: 32% !important;
+    }
+
     /* end programs */
 
 }
