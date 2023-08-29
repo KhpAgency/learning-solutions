@@ -2348,8 +2348,9 @@ body.kingster-boxed .kingster-fixed-footer .kingster-copyright-wrapper {
 }
 
 footer.kingster-no-title-divider .kingster-widget-title {
-	border: 0px;
-	padding-bottom: 0px;
+    border: 0;
+    padding-bottom: 0;
+    margin-top: 10px;
 }
 
 /* copyright */
