@@ -3900,7 +3900,27 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         font-size: 21.5px !important;
     }
 
+    /*  End Services */
+
+
+    /* start programs */
+    .border-programs {
+        width: 90px;
+        position: relative;
+        bottom: 20px;
+        left: 164px;
+        border: 3px solid var(--lightblue) !important;
+    }
+
+    .width-5 {
+        width: 75%;
+    }
+
+    .width-6 {
+        width: 80%;
+        margin-top: -20px;
+    }
+
+    /* end programs */
+
 }
-
-
-/*  End Services */
