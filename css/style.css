@@ -3709,6 +3709,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         font-family: 'Poppins';
         text-align: left;
         font-size: 17px !important;
+        /* xc */
     }
 
     .obj-p {
