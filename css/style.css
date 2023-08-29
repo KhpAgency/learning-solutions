@@ -3653,7 +3653,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     }
 
     .abt-who2 {
-        font-size: 16px !important;
+        font-size: 17px !important;
     }
 
     .pd9 {
@@ -3663,7 +3663,131 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     .pd10 {
         padding-bottom: 30px !important;
     }
-
+    .pd11{
+        padding: 80px 0px 80px 0px !important;
+    }
+    .abt-mis {
+        background-image: url(../img/about/mission.webp);
+        background-size: cover;
+        /* background-position: center center; */
+        height: 200px !important;
+        transform: translate(0px, 0px) !important;
+    }
+    .mis-icon {
+        display: grid;
+        place-content: center;
+        position: relative;
+        top: 35px;
+        left: 39%;
+        width: 90px;
+    }
+    .our-mis {
+        font: 26px 'Sateria' !important;
+        display: grid;
+        place-content: center center;
+        position: relative;
+        top: 30px;
+        color: white !important;
+    }
+    .pd12{
+        padding: 80px 10px 0px 0px !important;
+    }
+    .mis-height {
+        line-height: 35px !important;
+        color: var(--lightgrey);
+        font-family: 'Poppins';
+        text-align: justify;
+        font-size: 17px !important;
+    }
+    .obj-p {
+        color: white;
+        font-family: 'Poppins';
+        font-size: 16px !important;
+        max-width: 1450px;
+        text-align: justify;
+        margin-top: 0px !important;
+        padding: 0px 30px 0px 30px;
+    }
+    .obj-h3 {
+        font-family: 'Sateria' !important;
+        text-transform: uppercase;
+        font-size: 24px !important;
+        color: white !important;
+        margin-top: 20px !important;
+    }
+    .obj-bg {
+        background-image: url(../img/about/obj.webp);
+        background-size: cover;
+        background-position: center;
+        height: 500px !important;
+    }
+    .obj-height {
+        height: 500px !important;
+    }
+    .abt-vis {
+        background-image: url(../img/about/obj-splitter.webp);
+        height: 650px !important;
+        transform: translate(0px, -6.51875px) !important;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 7px;
+        background-position-x: -640px;
+    }
+    .pd13{
+        padding: 80px 0px 0px 0px !important;
+    }
+    .vis-h3 {
+        font: 24px 'Sateria' !important;
+        text-transform: uppercase;
+        display: grid;
+        place-content: center center;
+        position: relative;
+        top: 25px;
+        color: var(--lightblue) !important;
+    }
+    .pd14{
+        padding: 90px 40px 0px 0px !important;
+        height: 480px;
+    }
+    .mis-height2 {
+        line-height: 35px !important;
+        color: white;
+        font-family: 'Poppins';
+        text-align: justify;
+        font-size: 16px;
+    }
+    .value-sec {
+        width: 700px;
+        position: relative !important;
+        right: 0px;
+        bottom: 140px;
+    }
+    .value-title {
+        font-size: 24px !important;
+        font-family: 'Sateria' !important;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        letter-spacing: 0px !important;
+        color: var(--lightblue) !important;
+        margin-top: 10px !important;
+    }
+    .value-p {
+        font-size: 17px;
+        text-transform: none;
+        font-family: 'Poppins';
+        color: var(--navy);
+        text-align: left;
+        padding-right: 290px;
+    }
+    .value-height {
+        height: 375px;
+    }
+    .pd15{
+        padding-bottom: 15px !important;
+    }
+    .pd16{
+        padding-bottom: 15px !important;
+    }
 
 /*  Start Services */
 
