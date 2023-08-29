@@ -675,6 +675,10 @@
     background-repeat: no-repeat;
 }
 
+.facili-width {
+    width: 100% !important;
+}
+
 /* End Services */
 
 
@@ -3789,43 +3793,91 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         padding-bottom: 15px !important;
     }
 
-/*  Start Services */
+    /*  Start Services */
 
-.border-services {
-    width: 120px;
-    position: relative;
-    bottom: 15px;
-    left: 155px;
-    border: 2.5px solid var(--lightblue) !important;
+    .border-services {
+        width: 120px;
+        position: relative;
+        bottom: 15px;
+        left: 155px;
+        border: 2.5px solid var(--lightblue) !important;
+    }
+
+    .srvs-txt {
+        right: 5px;
+        top: 0px;
+    }
+
+    .srvs-icon-mob {
+        transform: scale(0.8);
+        display: grid;
+        place-content: center;
+    }
+
+    .srvs-icon {
+        margin-left: 0px;
+    }
+
+    .srvs-bg {
+        right: -15px !important;
+    }
+
+    .h3-8-mob {
+        display: grid;
+        place-content: center;
+    }
+
+    .h3-8 {
+        font-size: 20px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .p6 {
+        font-size: 17px !important;
+    }
+
+    .h3-pos-mob {
+        display: grid;
+        place-content: center;
+        ;
+    }
+
+    .h3-pos {
+        top: 0px;
+        font-size: 20px !important;
+        margin-bottom: 0px !important
+    }
+
+    .border-srv {
+        border: white solid !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .srvs-width {
+        width: 100% !important;
+    }
+
+    .split-icon {
+        margin-left: 100px !important;
+        transform: scale(0.7);
+    }
+
+    .mrg-top {
+        margin-top: 60px !important;
+    }
+
+    .map-marker {
+        font-size: 25px;
+        position: relative;
+        right: 160px;
+        top: 27px;
+    }
+    .h3-10{
+        font-size: 21.5px !important;
+    }
+
 }
 
-.srvs-txt {
-    right: 5px;
-    top: 0px;
-}
-
-.srvs-icon {
-    transform: scale(0.6);
-    margin-left: 100px;
-}
-
-.srvs-bg {
-    right: -15px !important;
-}
-
-.h3-8 {
-    font-size: 20px !important;
-    right: -40px;
-    top: -15px;
-    position: inherit;
-}
-
-.p6 {
-    font-size: 17px !important;
-}
-
-.facili-bg {}
 
 /*  End Services */
-
-}

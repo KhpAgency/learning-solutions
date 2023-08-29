@@ -724,6 +724,7 @@ body.kingster-boxed .kingster-fixed-footer .kingster-copyright-wrapper {
 	max-width: 1360px;
 }
 
+
 .kingster-body-front .gdlr-core-container,
 .kingster-body-front .kingster-container {
 	padding-left: 20px;
@@ -4035,7 +4036,7 @@ kingster-lp-course-left-thumbnail .origin-price {
 
 .gdlr-core-page-builder-body [data-skin="Green Form"] *,
 .gdlr-core-page-builder-body [data-skin="Green Form"] .gdlr-core-skin-border {
-	border-color: #0082fa ;
+	border-color: #0082fa;
 }
 
 .gdlr-core-page-builder-body [data-skin="Green Form"] input:not([type="button"]):not([type="submit"]):not([type="reset"]) {
