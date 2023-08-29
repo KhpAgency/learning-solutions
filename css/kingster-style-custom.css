@@ -1470,7 +1470,7 @@ ul.mm-listview li>span:hover,
 ul.mm-listview li.current-menu-item>a,
 ul.mm-listview li.current-menu-ancestor>a,
 ul.mm-listview li.current-menu-ancestor>span {
-	color: var(--lightgrey);
+	color: var(--lightblue);
 }
 
 .mm-menu {
