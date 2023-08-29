@@ -77,7 +77,7 @@
     font-weight: 400 !important;
     letter-spacing: 0px !important;
     text-align: center !important;
-    color: white !important;
+    color: var(--navy) !important;
 }
 
 .h3-3 {
@@ -3431,11 +3431,29 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     }
 
     .t3mob {
-        font-size: 22px !important;
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
     }
 
     .p1 {
         font-size: 16px !important;
+        text-align: left !important;
+    }
+
+    .gdlr-core-page-builder-body ul {
+        margin-top: -20px !important;
+    }
+
+    .pd00 {
+        padding-bottom: 5px !important;
+    }
+
+    .gdlr-core-blog-grid-with-frame .gdlr-core-blog-grid-frame {
+        padding: 25px 0px 24px !important;
+    }
+
+    .height1a {
+        height: 520px !important;
     }
 
     .p2mob {
@@ -3459,7 +3477,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     }
 
     .pd5 {
-        padding-bottom: 15px !important;
+        padding-bottom: 0px !important;
     }
 
     .pd6 {
@@ -3471,16 +3489,23 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     }
 
     .h3-1 {
-        font-size: 26px !important;
+        font-size: 24px !important;
+    }
+
+    .hr2 {
+        width: 120px !important;
+        border-top: var(--lightblue) solid 6px !important;
+        color: var(--lightblue) !important;
+        margin-top: 5px;
     }
 
     .h3-2m {
-        font-size: 22px !important;
+        font-size: 18px !important;
     }
 
     .h3-3 {
         font-family: Sateria !important;
-        font-size: 26px !important;
+        font-size: 22px !important;
         font-weight: 400 !important;
         letter-spacing: 0px !important;
         text-align: left !important;
@@ -3497,7 +3522,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         text-transform: none !important;
         color: var(--lightgrey) !important;
         width: 100% !important;
-        text-align: justify !important;
+        text-align: left !important;
     }
 
     .p4 {
@@ -3506,7 +3531,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         letter-spacing: -1px !important;
         text-transform: none !important;
         color: var(--lightgrey) !important;
-        text-align: justify !important;
+        text-align: left !important;
     }
 
     .p5 {
@@ -3534,7 +3559,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         font-weight: 600 !important;
         letter-spacing: 1px !important;
         color: rgb(255, 255, 255) !important;
-        margin-top: 15px !important;
+        margin-top: 0px !important;
         padding: 6px 16px !important;
         text-transform: uppercase !important;
         border-radius: 4px !important;
@@ -3558,7 +3583,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     }
 
     .width-2 {
-        width: 60%;
+        width: 70%;
         margin-top: -15px;
     }
 
@@ -3572,7 +3597,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
     .h3-4m {
         font-family: Sateria !important;
-        font-size: 26px !important;
+        font-size: 24px !important;
         font-weight: 400 !important;
         letter-spacing: 0px !important;
         text-align: center !important;
@@ -3581,7 +3606,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
     .h3-5m {
         font-family: Sateria !important;
-        font-size: 22px !important;
+        font-size: 20px !important;
         font-weight: 400 !important;
         letter-spacing: 0px !important;
         text-align: center !important;
@@ -3601,6 +3626,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
     .aligncenter {
         text-align: center !important;
+    }
+
+    .place {
+        place-content: normal !important;
+    }
+
+    .pd19 {
+        padding-bottom: 40px !important;
     }
 
 
@@ -4001,5 +4034,58 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     }
 
     /* End Programs */
+    .h3-11 {
+        font-family: Sateria !important;
+        font-size: 22px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-align: center !important;
+        color: white !important;
+        margin-bottom: -25px !important;
+        padding-top: 0px;
+    }
+
+    .h3-12 {
+        font-family: Sateria !important;
+        font-size: 20px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-align: center !important;
+        color: white !important;
+    }
+
+    .h3-13 {
+        font-family: Sateria !important;
+        font-size: 20px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-align: center !important;
+        color: var(--navy) !important;
+        margin-bottom: -25px !important;
+        padding: 0px 0px;
+    }
+
+    .gdlr-core-price-table .gdlr-core-price-table-head {
+        padding: 20px 0px 1px 0px !important;
+        margin-right: -1px;
+    }
+
+    .pd17 {
+        padding-bottom: 10px !important;
+    }
+
+    .prog-padding2 {
+        padding-bottom: 0px;
+    }
+
+    .pd18 {
+        padding-bottom: 0px !important;
+    }
+
+    .width-7 {
+        width: 100% !important;
+    }
+
+    /* end programs */
 
 }
