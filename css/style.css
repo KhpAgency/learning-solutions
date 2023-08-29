@@ -853,6 +853,10 @@
     right: 200px;
 }
 
+.br-coll br{
+    display: none;
+}
+
 /* End Collabration */
 
 
