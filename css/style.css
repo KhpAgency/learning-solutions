@@ -3419,6 +3419,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     max-width: 1250px !important
 }
 
+
 /* start responsive */
 @media only screen and (max-width: 768px) {
     .t1mob {
@@ -3889,6 +3890,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     .mrg-top {
         margin-top: 60px !important;
     }
+    .mrg-top2 {
+        margin-top: 10px !important;
+    }
 
     .map-marker {
         font-size: 25px;
@@ -3903,8 +3907,82 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
     /*  End Services */
 
+    /*  Start Collaboration */
 
-    /* start programs */
+    .coll-title {
+        font-size: 30px !important;
+    }
+
+    .border-coll {
+        width: 128px;
+        bottom: 15px;
+        left: 175px;
+        border: 3px solid var(--lightblue) !important;
+    }
+
+    .coll-title2 {
+        font-size: 22px !important;
+    }
+
+    .coll-text {
+        font-size: 19px !important;
+    }
+    .coll-text2 {
+        font-size: 16px !important;
+    }
+
+    .coll-pos {
+        top: 0px;
+        left: 0px;
+    }
+
+    .coll-grid-mob {
+        display: grid;
+        place-content: center;
+    }
+
+    .logo-grid {
+        display: grid;
+        place-content: center;
+    }
+
+    .logo-size-mob {
+        transform: scale(0.7);
+    }
+
+    .logo-size-mob2 {
+        transform: scale(0.6);
+    }
+
+    .logo-size-mob3 {
+        transform: scale(0.95);
+    }
+
+    .logos-mrg {
+        margin-top: -40px;
+    }
+
+    .logo-pad {
+        padding-bottom: 0px !important;
+    }
+
+    .suc-h3 {
+        font-size: 28px !important;
+    }
+
+    .suc-pos-l {
+        left: 0px;
+    }
+
+    .suc-pos-r {
+        right: 0px;
+    }
+
+  
+
+    /*  End Collaboration */
+
+    /* Start Programs */
     .border-programs {
         width: 90px;
         position: relative;
@@ -3922,6 +4000,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         margin-top: -20px;
     }
 
-    /* end programs */
+    /* End Programs */
 
 }
