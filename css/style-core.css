@@ -4059,7 +4059,7 @@ body.kingster-boxed .gdlr-core-column-extend-right .gdlr-core-pbf-background-wra
 	}
 
 	.kingster-footer-column {
-		margin-bottom: 20px !important;
+		margin-bottom: 10px !important;
 	}
 
 	.kingster-footer-wrapper.kingster-with-column-divider .kingster-footer-column {
@@ -12571,6 +12571,10 @@ body .tribe-bar-views-inner {
 	#gdlr-core-wrapper-4.gdlr-core-pbf-wrapper {
 		padding-bottom: 70px !important;
 		padding-top: 70px !important;
+	}
+	#gdlr-core-wrapper-4b.gdlr-core-pbf-wrapper {
+		padding-bottom: 30px !important;
+		padding-top: 30px !important;
 	}
 }
 

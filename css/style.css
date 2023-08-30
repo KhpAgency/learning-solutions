@@ -298,7 +298,7 @@
 .p8 {
     font-size: 26px !important;
     font-weight: 400 !important;
-    letter-spacing: -1px !important;
+    letter-spacing: 0px !important;
     text-transform: none !important;
     color: var(--lightgrey) !important;
     text-align: justify !important;
@@ -4110,6 +4110,178 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         width: 32% !important;
     }
 
+    .partner-img{
+        transform: scale(1.5);
+        margin-left: 15px;
+
+    }
+
+    .partner-img2{
+        transform: scale(1.3);
+        margin-left: 15px;
+    }
+
     /* end programs */
+
+    /* start english courses  */
+    .border-courses {
+        width: 132px;
+        position: relative;
+        bottom: 20px;
+        left: 174px;
+        border: 3px solid var(--lightblue) !important;
+    }
+
+    .p8 {
+        font-size: 17px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-transform: none !important;
+        color: var(--lightgrey) !important;
+        text-align: left !important;
+    }
+
+    .pd21{
+        padding: 25px 0px 0px 0px !important;
+    }
+
+    .pd22{
+        padding-bottom: 22px !important;
+    }
+
+    .h3-14 {
+        font-family: Jost !important;
+        font-size: 22px !important;
+        font-weight: 600 !important;
+        letter-spacing: 0px !important;
+        text-align: center !important;
+        text-transform: none !important;
+        color: var(--lightblue) !important;
+    }
+
+    .p10 {
+        font-size: 17px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-transform: none !important;
+        color: var(--navy) !important;
+        text-align: left !important;
+    }
+
+    .mb1{
+        margin-bottom: 25px !important;
+    }
+
+    .gdlr-core-icon-list-item .gdlr-core-icon-list-icon-wrap {
+        float: left;
+        margin-right: 5px !important;
+        margin-top: 5px !important;
+        margin-left: 0px !important;
+        vertical-align: middle;
+        position: relative;
+        line-height: 1;
+        margin-top: 3px;
+    }
+
+    .pd23{
+        padding-bottom: 0px !important;
+    }
+    .mt1{
+        margin-top: -30px !important;
+    }
+
+    .pd24{
+        padding-top: 0px !important;
+    }
+
+    .p11 {
+        font-size: 17px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-transform: none !important;
+        color: var(--navy) !important;
+        text-align: left !important;
+    }
+
+    .pd25{
+        padding-bottom: 20px !important;
+    }
+
+    .width-9{
+        width: 30% !important;
+    }
+
+    .h3-15 {
+        font-family: Jost !important;
+        font-size: 17px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-align: center !important;
+        color: white !important;
+        text-transform: none !important;
+        margin-left: 0px !important;
+    }
+    .divgrid{
+        display: grid;
+        place-content: center;
+    }
+
+    .divgrid2 {
+        display: grid;
+        justify-items: center;
+    }
+
+    .pd26{
+        padding-bottom: 15px !important;
+    }
+    .h3-7 {
+        font-family: Sateria !important;
+        font-size: 20px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-align: left !important;
+        text-transform: uppercase !important;
+        color: white !important;
+    }
+
+    .kingster-footer-wrapper .kingster-widget-title {
+        margin-bottom: 5px !important;
+    }
+    /* end english courses  */
+
+    /* start admission */
+    .adm-title {
+        font-size: 30px !important;
+    }
+
+    .adm-title2 {
+        font-size: 20px !important;
+    }
+
+    .border-adm {
+        width: 100px;
+        position: relative;
+        bottom: 17px;
+        left: 153px;
+        border: 3px solid var(--lightblue) !important;
+    }
+
+    .form-adm {
+        font-size: 22px !important;
+        font-family: 'Sateria' !important;
+        font-weight: 700 !important;
+        letter-spacing: 0px !important;
+        text-transform: none !important;
+        color: #1a1a1a !important;
+    }
+
+    .pd27{
+        padding: 30px 0px 0px !important;
+    }
+
+    .pd28{
+        padding-bottom: 0px !important;
+    }
+    /* end admission */
 
 }
