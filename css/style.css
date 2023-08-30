@@ -3943,6 +3943,23 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         font-size: 21.5px !important;
     }
 
+    .facili-bg {
+        height: 300px !important;
+    }
+
+    .eng-bg{
+        height: 300px !important ;
+    }
+
+    .srvs-height {
+        height: 300px !important;
+    }
+
+    .img-mob-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     /*  End Services */
 
     /*  Start Collaboration */
