@@ -552,10 +552,10 @@ ul.gdlr-core-custom-menu-widget.gdlr-core-menu-style-list li a:before {
 	}
 
 	.gdlr-core-tab-item .gdlr-core-tab-item-content-image-wrap {
-		display: none;
+		display: block;
 		float: none;
 		width: auto;
-		height: 300px !important;
+		height: 180px !important;
 	}
 }
 
