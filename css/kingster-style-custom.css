@@ -1903,7 +1903,7 @@ ul.gdlr-core-twitter-widget-wrap li .gdlr-core-twitter-widget-date a:hover {
 }
 
 .kingster-copyright-wrapper a:hover {
-	color: #8dd7e5;
+	color: var(--lightblue);
 }
 
 .kingster-footer-back-to-top-button {
