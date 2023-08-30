@@ -4359,6 +4359,96 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         left: 0px;
     }
 
+    .height-6{
+        height: 230px !important;
+    }
+
+    .height-7{
+        height: 260px !important;
+    }
+
+    .edu-bg {
+        background-image: url(../img/Online-Education/Sec-Imgs-17.webp);
+        background-size: cover;
+        background-position: center;
+        position: unset;
+        right: 0px;
+    }
+
+    .height-8{
+        height: 290px !important;
+    }
+
+    .height-9{
+        height: 300px !important;
+    }
+
+    .edu-bg2 {
+        background-image: url(../img/Online-Education/Sec-Imgs-18.webp) !important;
+        background-size: cover !important;
+        background-position: center !important;
+        position: unset;
+        right: 200px;
+    }
+
+    .height-10{
+        height: 360px !important;
+    }
+
+    .edu-txt {
+        right: 28px;
+        top: 65px;
+    }
+
+    .edu-p2 {
+        font-family: 'Poppins' !important;
+        font-size: 22px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-transform: uppercase !important;
+        color: var(--navy) !important;
+        position: relative;
+        bottom: 20px;
+        left: 30px;
+    }
+
+    .edu-h3 {
+        font-family: 'Poppins' !important;
+        font-size: 22px !important;
+        font-weight: 400 !important;
+        text-transform: uppercase !important;
+        color: var(--navy) !important;
+        position: relative;
+        bottom: 45px;
+        left: 30px;
+    }
+
+    .border-edu-h3 {
+        width: 183px;
+        position: relative;
+        bottom: 32px;
+        left: 153px;
+        border: 3px solid var(--navy) !important;
+    }
+
+    .mt2{
+        margin-top: -145px !important;
+    }
+
+    .edu-pos {
+        position: relative;
+        top: 20px;
+    }
+
+    .edu-split-txt {
+        font-family: 'Sateria' !important;
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-align: center !important;
+        color: white !important;
+        text-transform: uppercase;
+    }
     /* end online education  */
 
     /* start flexible study  */
