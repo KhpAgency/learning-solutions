@@ -1148,6 +1148,10 @@
 
 /* End New CSS  */
 
+/* start arabic css  */
+
+/* end arabic css  */
+
 .lg-icon {
     font-family: lg;
     speak: none;
@@ -4548,7 +4552,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     }
 
     .mrg16 {
-        margin: 16px 0px 0px 81px;
+        margin: 18px 0px 0px 81px;
+        height: 17px;
     }
 
     .mrg17 {
