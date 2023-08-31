@@ -4475,30 +4475,30 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         text-transform: uppercase;
     }
 
-    .pd34{
+    .pd34 {
         padding: 15px 0px 0px 0px !important;
     }
 
-    .width-10{
+    .width-10 {
         width: 50% !important;
     }
 
-    .divflex2{
+    .divflex2 {
         display: flex;
     }
 
-    .logos2{
+    .logos2 {
         transform: scale(2);
     }
 
-    .logos3{
+    .logos3 {
         transform: scale(1.5);
         margin-top: 5px;
         margin-left: -5px;
 
     }
 
-    .logos4{
+    .logos4 {
         transform: scale(2);
         margin-left: -20px;
     }
@@ -4542,5 +4542,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
     /* end flexible study  */
 
+    /* start language  */
+    .webbox {
+        display: -webkit-box !important;
+    }
 
+    .mrg16 {
+        margin: 16px 0px 0px 81px;
+    }
+
+    .mrg17 {
+        margin: 18px 0 0px 74px;
+    }
+
+    /* end language  */
 }

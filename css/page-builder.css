@@ -11982,7 +11982,7 @@ ul.gdlr-core-product-sub-category li h3 {
 	.gdlr-core-flexslider-nav,
 	.gdlr-core-flexslider .flex-direction-nav,
 	.gdlr-core-flexslider-custom-nav {
-		display: none;
+		display: block;
 	}
 
 	.gdlr-core-flexslider[data-nav="navigation-bottom"] .flex-direction-nav {
@@ -11994,6 +11994,32 @@ ul.gdlr-core-product-sub-category li h3 {
 /*--- mobile landscape style ---*/
 @media only screen and (max-width: 767px) {
 
+	.gdlr-core-flexslider .flex-direction-nav .flex-nav-prev {
+		left: 2px;
+	}
+	.gdlr-core-flexslider .flex-direction-nav .flex-nav-next {
+		right: 2px;
+	}
+	.gdlr-core-flexslider .flex-direction-nav li {
+		position: absolute;
+		line-height: 1;
+		top: 27%;
+		margin-top: -24px;
+		z-index: 15;
+	}
+	.gdlr-core-flexslider .flex-direction-nav li a {
+		display: block;
+		padding: 5px;
+		background: #000;
+		background: rgba(0, 0, 0, 0.6);
+		color: #fff;
+		border-radius: 50%;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+	}
+	.gdlr-core-flexslider .flex-direction-nav li a i {
+		display: contents;
+	}
 	.gdlr-core-hide-in-desktop-tablet {
 		display: block;
 	}
