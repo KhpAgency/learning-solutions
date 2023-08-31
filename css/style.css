@@ -29,6 +29,16 @@
 
 }
 
+@font-face {
+	font-family: 'GE SS Two';
+	src: local('GE SS Two Medium'), local('GE SS Two Medium'),
+		url('../fonts/GESSTwoMedium/GE\ SS\ Two\ Medium.woff2') format('woff2'),
+		url('../fonts/GESSTwoMedium/GE\ SS\ Two\ Medium.woff') format('woff'),
+		url('../fonts/GESSTwoMedium/GE\ SS\ Two\ Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
 /* End Fonts */
 
 /* Color Codes */
@@ -1149,6 +1159,17 @@
 /* End New CSS  */
 
 /* start arabic css  */
+.ar-font {
+	font-family: 'GE SS Two' !important;
+	font-weight: 100 !important;
+}
+
+.ar-float {
+	float: right !important;
+	text-align: right !important;
+	direction: rtl !important;
+}
+
 
 /* end arabic css  */
 
