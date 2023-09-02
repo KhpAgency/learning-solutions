@@ -260,6 +260,13 @@
     color: var(--lightgrey) !important;
 }
 
+.p2 span {
+    font-weight: 700 !important;
+    font-family: 'Jost';
+}
+
+
+
 .p3 {
     font-size: 20px !important;
     font-weight: 400 !important;
@@ -293,10 +300,16 @@
     text-align: justify !important;
 }
 
+.p5 span {
+    font-weight: 700 !important;
+    font-family: 'Jost';
+}
+
+
 .p6 {
     font-size: 20px !important;
     font-weight: 400 !important;
-    letter-spacing: -1px !important;
+    letter-spacing: 0px !important;
     text-transform: none !important;
     color: white !important;
     text-align: justify !important;
@@ -1168,12 +1181,102 @@
 .ar-font {
 	font-family: 'GE SS Two' !important;
 	font-weight: 100 !important;
-}   
+}  
+
+.ar-font span{
+    font-weight: 700 !important;
+    font-family: 'Jost';
+}
 
 .ar-float {
 	float: right !important;
 	text-align: right !important;
 	direction: rtl !important;
+}
+
+.ar-float-c {
+	float: right !important;
+	text-align: center !important;
+	direction: rtl !important;
+}
+
+.btn2-ar {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    letter-spacing: 1px !important;
+    color: rgb(255, 255, 255) !important;
+    margin-top: 15px !important;
+    padding: 8px 25px !important;
+    text-transform: uppercase !important;
+    border-radius: 4px !important;
+    background: var(--navy) !important;
+}
+
+.mrg-ar1{
+    margin-right: 30px;
+}
+
+.map-marker-ar {
+    color: var(--lightblue);
+    font-size: 36px;
+    position: relative;
+    left: 320px;
+    top: -45px;
+}
+
+.border-abt-ar {
+    width: 172px;
+    position: relative;
+    bottom: 20px;
+    left: 480px;
+    border: 4px solid var(--lightblue) !important;
+}
+
+.abt-who-border-ar {
+    border-color: var(--lightblue) !important;
+    border-width: 5px !important;
+    width: 90px;
+    margin-left: 62px;
+    margin-top: -10px;
+}
+
+.value-sec-ar {
+    width: 700px;
+    position: relative !important;
+    bottom: 140px;
+}
+
+.obj-p-ar {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 20px !important;
+    max-width: 1450px;
+    text-align: left;
+    line-height: 50px !important;
+    margin-top: 70px !important;
+}
+
+.subtitle-ar{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.subtitle-ar2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.subtitle-ar2 span{
+    font-weight: 600 !important;
+    font-family: 'Jost';
+
+}
+
+.border-services-ar {
+    width: 150px;
+    position: relative;
+    bottom: 25px;
+    left: 495px;
+    border: 4px solid var(--lightblue) !important;
 }
 
 
@@ -3596,6 +3699,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     .btn2 {
         font-size: 14px !important;
         font-weight: 600 !important;
+        letter-spacing: 1px !important;
+        color: rgb(255, 255, 255) !important;
+        margin-top: 0px !important;
+        padding: 6px 16px !important;
+        text-transform: uppercase !important;
+        border-radius: 4px !important;
+        background: var(--navy) !important;
+    }
+
+    .btn2-ar {
+        font-size: 14px !important;
+        font-weight: normal !important;
         letter-spacing: 1px !important;
         color: rgb(255, 255, 255) !important;
         margin-top: 0px !important;
