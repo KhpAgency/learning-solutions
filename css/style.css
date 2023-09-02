@@ -249,7 +249,8 @@
 }
 
 .p1 span {
-    font-weight: 600 !important;
+    font-weight: 700 !important;
+    font-family: 'Jost';
 }
 
 .p2 {
@@ -267,6 +268,11 @@
     color: var(--lightgrey) !important;
     width: 80% !important;
     text-align: justify !important;
+}
+
+.p3 span{
+    font-family: 'Jost' !important;
+    font-weight: 600;
 }
 
 .p4 {
@@ -1162,7 +1168,7 @@
 .ar-font {
 	font-family: 'GE SS Two' !important;
 	font-weight: 100 !important;
-}
+}   
 
 .ar-float {
 	float: right !important;
