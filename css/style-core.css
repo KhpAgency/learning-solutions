@@ -5252,7 +5252,7 @@ li.mm-vertical.mm-opened>.mm-panel {
 .mm-next:after {
 	content: '';
 	border: 1px solid transparent;
-	display: block;
+	display: none;
 	width: 6px;
 	height: 6px;
 	margin: auto;
@@ -11662,7 +11662,7 @@ li.mm-vertical.mm-opened>.mm-panel {
 .mm-next:after {
 	content: '';
 	border: 1px solid transparent;
-	display: block;
+	display: none;
 	width: 6px;
 	height: 6px;
 	margin: auto;
