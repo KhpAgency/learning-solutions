@@ -1651,18 +1651,33 @@
         position: relative !important;
         bottom: -80px !important;
         left: 15px !important;
+        /* safari */
+        -webkit-font-size: 16px !important;
+        -webkit-font-weight: 400 !important;
+        -webkit-letter-spacing: 0px !important;
+        -webkit-text-transform: uppercase !important;
+        -webkit-color: var(--navy) !important;
+        -webkit-position: relative !important;
+        -webkit-bottom: -80px !important;
+        -webkit-left: 15px !important;
     }
 
     .edu-h3-ar {
-        /* font-family: 'Poppins' !important; */
         font-size: 19px !important;
-        /* letter-spacing: 0.75px; */
         font-weight: 400 !important;
         text-transform: uppercase !important;
         color: var(--navy) !important;
         position: relative !important;
         bottom: -60px !important;
         left: 15px !important;
+        /* safari */
+        -webkit-font-size: 19px !important;
+        -webkit-font-weight: 400 !important;
+        -webkit-text-transform: uppercase !important;
+        -webkit-color: var(--navy) !important;
+        -webkit-position: relative !important;
+        -webkit-bottom: -60px !important;
+        -webkit-left: 15px !important;
     }
 
     .border-edu-h3-ar {
@@ -1671,10 +1686,18 @@
         bottom: 31px;
         left: -118px;
         border: 3px solid var(--navy) !important;
+        /* safari */
+        -webkit-width: 105px;
+        -webkit-position: relative;
+        -webkit-bottom: 31px;
+        -webkit-left: -118px;
+        -webkit-border: 3px solid var(--navy) !important;
     }
     
     .mt2 {
         margin-top: 0px !important;
+        /* safari */
+        -webkit-margin-top: 0px !important;
     }
 
 }
@@ -1690,18 +1713,33 @@
         position: relative !important;
         bottom: -80px !important;
         left: 15px !important;
+        /* safari */
+        -webkit-font-size: 19px !important;
+        -webkit-font-weight: 400 !important;
+        -webkit-letter-spacing: 0px !important;
+        -webkit-text-transform: uppercase !important;
+        -webkit-color: var(--navy) !important;
+        -webkit-position: relative !important;
+        -webkit-bottom: -80px !important;
+        -webkit-left: 15px !important;
     }
 
     .edu-h3-ar {
-        /* font-family: 'Poppins' !important; */
         font-size: 22px !important;
-        /* letter-spacing: 0.75px; */
         font-weight: 400 !important;
         text-transform: uppercase !important;
         color: var(--navy) !important;
         position: relative !important;
         bottom: -60px !important;
         left: 15px !important;
+        /* safari */
+        -webkit-font-size: 22px !important;
+        -webkit-font-weight: 400 !important;
+        -webkit-text-transform: uppercase !important;
+        -webkit-color: var(--navy) !important;
+        -webkit-position: relative !important;
+        -webkit-bottom: -60px !important;
+        -webkit-left: 15px !important;
     }
 
     .border-edu-h3-ar {
@@ -1710,11 +1748,20 @@
         bottom: 35px;
         left: -136px;
         border: 3px solid var(--navy) !important;
+        /* safari */
+        -webkit-width: 123px;
+        -webkit-position: relative;
+        -webkit-bottom: 35px;
+        -webkit-left: -136px;
+        -webkit-border: 3px solid var(--navy) !important;
     }
     
     .mt2 {
         margin-top: 0px !important;
+        /* safari */
+        -webkit-margin-top: 0px !important;
     }
+    
 
 }
 
@@ -1729,18 +1776,33 @@
         position: relative !important;
         bottom: -30px !important;
         left: 15px !important;
+        /* safari */
+        -webkit-font-size: 19px !important;
+        -webkit-font-weight: 400 !important;
+        -webkit-letter-spacing: 0px !important;
+        -webkit-text-transform: uppercase !important;
+        -webkit-color: var(--navy) !important;
+        -webkit-position: relative !important;
+        -webkit-bottom: -30px !important;
+        -webkit-left: 15px !important;
     }
 
     .edu-h3-ar {
-        /* font-family: 'Poppins' !important; */
         font-size: 22px !important;
-        /* letter-spacing: 0.75px; */
         font-weight: 400 !important;
         text-transform: uppercase !important;
         color: var(--navy) !important;
         position: relative !important;
         bottom: -15px !important;
         left: 15px !important;
+        /* safari */
+        -webkit-font-size: 22px !important;
+        -webkit-font-weight: 400 !important;
+        -webkit-text-transform: uppercase !important;
+        -webkit-color: var(--navy) !important;
+        -webkit-position: relative !important;
+        -webkit-bottom: -15px !important;
+        -webkit-left: 15px !important;
     }
 
     .border-edu-h3-ar {
@@ -1749,10 +1811,18 @@
         bottom: 35px;
         left: -136px;
         border: 3px solid var(--navy) !important;
+        /* safari */
+        -webkit-width: 128px;
+        -webkit-position: relative;
+        -webkit-bottom: 35px;
+        -webkit-left: -136px;
+        -webkit-border: 3px solid var(--navy) !important;
     }
 
     .mt2 {
         margin-top: -60px !important;
+        /* safari */
+        -webkit-margin-top: -60px !important;
     }
 
 }
@@ -1767,18 +1837,33 @@
         position: relative;
         bottom: 20px;
         left: 10px;
+        /* safari */
+        -webkit-font-size: 22px !important;
+        -webkit-font-weight: 400 !important;
+        -webkit-letter-spacing: 0px !important;
+        -webkit-text-transform: uppercase !important;
+        -webkit-color: var(--navy) !important;
+        -webkit-position: relative;
+        -webkit-bottom: 20px;
+        -webkit-left: 10px;
     }
 
     .edu-h3-ar {
-        /* font-family: 'Poppins' !important; */
         font-size: 26px !important;
-        /* letter-spacing: 0.75px; */
         font-weight: 400 !important;
         text-transform: uppercase !important;
         color: var(--navy) !important;
         position: relative;
         bottom: 38px;
         left: 10px;
+        /* safari */
+        -webkit-font-size: 26px !important;
+        -webkit-font-weight: 400 !important;
+        -webkit-text-transform: uppercase !important;
+        -webkit-color: var(--navy) !important;
+        -webkit-position: relative;
+        -webkit-bottom: 38px;
+        -webkit-left: 10px;
     }
 
     .border-edu-h3-ar {
@@ -1787,10 +1872,18 @@
         bottom: 41px;
         left: -164px;
         border: 3px solid var(--navy) !important;
+        /* safari */
+        -webkit-width: 142px;
+        -webkit-position: relative;
+        -webkit-bottom: 41px;
+        -webkit-left: -164px;
+        -webkit-border: 3px solid var(--navy) !important;
     }
 
     .mt2 {
         margin-top: -120px !important;
+        /* safari */
+        -webkit-margin-top: -120px !important;
     }
 
 }
