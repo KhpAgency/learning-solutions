@@ -1641,7 +1641,85 @@
 }
 
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 336px) {
+    .edu-p2-ar {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-transform: uppercase !important;
+        color: var(--navy) !important;
+        position: relative !important;
+        bottom: -80px !important;
+        left: 15px !important;
+    }
+
+    .edu-h3-ar {
+        /* font-family: 'Poppins' !important; */
+        font-size: 19px !important;
+        /* letter-spacing: 0.75px; */
+        font-weight: 400 !important;
+        text-transform: uppercase !important;
+        color: var(--navy) !important;
+        position: relative !important;
+        bottom: -60px !important;
+        left: 15px !important;
+    }
+
+    .border-edu-h3-ar {
+        width: 105px;
+        position: relative;
+        bottom: 31px;
+        left: -118px;
+        border: 3px solid var(--navy) !important;
+    }
+    
+    .mt2 {
+        margin-top: 0px !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 336px) and (max-width: 348px) {
+    .edu-p2-ar {
+        font-size: 19px !important;
+        font-weight: 400 !important;
+        letter-spacing: 0px !important;
+        text-transform: uppercase !important;
+        color: var(--navy) !important;
+        position: relative !important;
+        bottom: -80px !important;
+        left: 15px !important;
+    }
+
+    .edu-h3-ar {
+        /* font-family: 'Poppins' !important; */
+        font-size: 22px !important;
+        /* letter-spacing: 0.75px; */
+        font-weight: 400 !important;
+        text-transform: uppercase !important;
+        color: var(--navy) !important;
+        position: relative !important;
+        bottom: -60px !important;
+        left: 15px !important;
+    }
+
+    .border-edu-h3-ar {
+        width: 123px;
+        position: relative;
+        bottom: 35px;
+        left: -136px;
+        border: 3px solid var(--navy) !important;
+    }
+    
+    .mt2 {
+        margin-top: 0px !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 348px) and (max-width: 376px) {
     .edu-p2-ar {
         font-size: 19px !important;
         font-weight: 400 !important;
@@ -1672,7 +1750,7 @@
         left: -136px;
         border: 3px solid var(--navy) !important;
     }
-    
+
     .mt2 {
         margin-top: -60px !important;
     }
