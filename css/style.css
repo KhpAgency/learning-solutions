@@ -1829,14 +1829,14 @@
 
 @media only screen and (min-width: 377px) and (max-width: 768px) {
     .edu-p2-ar {
-        font-size: 19px !important;
+        font-size: 21px !important;
         font-weight: 400 !important;
         letter-spacing: 0px !important;
         text-transform: uppercase !important;
         color: var(--navy) !important;
         position: relative;
         bottom: 20px;
-        left: 10px;
+        left: 25px;
         /* safari */
         -webkit-font-size: 22px !important;
         -webkit-font-weight: 400 !important;
@@ -1845,7 +1845,7 @@
         -webkit-color: var(--navy) !important;
         -webkit-position: relative;
         -webkit-bottom: 20px;
-        -webkit-left: 10px;
+        -webkit-left: 25px;
     }
 
     .edu-h3-ar {
@@ -1855,7 +1855,7 @@
         color: var(--navy) !important;
         position: relative;
         bottom: 38px;
-        left: 10px;
+        left: 25px;
         /* safari */
         -webkit-font-size: 26px !important;
         -webkit-font-weight: 400 !important;
@@ -1863,7 +1863,7 @@
         -webkit-color: var(--navy) !important;
         -webkit-position: relative;
         -webkit-bottom: 38px;
-        -webkit-left: 10px;
+        -webkit-left: 25px;
     }
     .edu-h3-ar br{
         display: none !important;
