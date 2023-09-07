@@ -733,6 +733,8 @@
 
 .programs-slider {
     background-image: url(../img/Programs/Programs-Slider-20.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #prog1 ul {
