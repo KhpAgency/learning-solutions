@@ -1096,6 +1096,14 @@
 
 /* End Online Education Study */
 
+/* start flight academy */
+.flight-slider {
+    background-image: url(../img/flight-academy/banner1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* end flight academy */
+
 
 /* Start Admission  */
 
@@ -2376,11 +2384,64 @@
         .bgg-ar {
             background-size: cover !important;
         }
+        .border-flight-ar {
+            width: 100px;
+            position: relative;
+            bottom: 17px;
+            left: 121px;
+            border: 3px solid var(--lightblue) !important;
+        }
+        .abt-flight-ar {
+            font-size: 22px !important;
+            font-weight: 700 !important;
+            letter-spacing: 1px !important;
+            text-transform: none !important;
+            color: var(--lightblue) !important;
+        }
+        .abt-flight-border-ar {
+            border-color: var(--lightblue) !important;
+            border-width: 5px !important;
+            width: 65px;
+            margin-left: 200px;
+            margin-top: -10px;
+        }
+        .mrg-ar3{
+            margin-top: -60px;
+        }
+        .flight-pos {
+            position: relative;
+            top: 33px;
+        }
+        .mrg-ar4{
+            margin: 20px 20px 0px 0px !important;
+        }
+        .mrg-ar5{
+            margin-top: 120px !important;
+            margin-bottom: 60px !important;
+        }
+        .mrg-ar5b{
+            margin-top: 120px !important;
+            margin-bottom: 20px !important;
+        }
+        .mrg-ar6{
+            margin-top: 0px !important;
+        }
+        .mrg-ar7{
+            margin-top: -30px !important;
+        }
+        .dblock{
+            display: block !important;
+        }
+        .pd21-edit {
+            padding: 60px 0px 0px 0px !important;
+        }
 
     }
 
     /* end arabic css  */
-
+    .dnone-pc{
+        display: none;
+    }
     .lg-icon {
         font-family: lg;
         speak: none;
